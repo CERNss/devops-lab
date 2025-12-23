@@ -1,0 +1,44 @@
+{
+  "releases": [
+    {
+      "name": "traefik",
+      "chart": "traefik/traefik",
+      "repo": {
+        "name": "traefik",
+        "url": "https://traefik.github.io/charts"
+      },
+      "values": "values/traefik.yaml",
+      "timeout": "10m"
+    },
+    {
+      "name": "gitlab",
+      "chart": "gitlab/gitlab",
+      "repo": {
+        "name": "gitlab",
+        "url": "https://charts.gitlab.io"
+      },
+      "values": "values/gitlab.yaml",
+      "timeout": "20m"
+    },
+    {
+      "name": "jenkins",
+      "chart": "jenkins/jenkins",
+      "repo": {
+        "name": "jenkins",
+        "url": "https://charts.jenkins.io"
+      },
+      "values": "values/jenkins.yaml",
+      "timeout": "15m"
+    },
+    {
+      "name": "harbor",
+      "chart": "harbor/harbor",
+      "repo": {
+        "name": "harbor",
+        "url": "https://helm.goharbor.io"
+      },
+      "values": "values/harbor.yaml",
+      "timeout": "20m"
+    }
+  ]
+}
