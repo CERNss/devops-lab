@@ -1,12 +1,11 @@
 package external
 
 import (
+	"devops-lab/internal/middleware"
+	"devops-lab/internal/model"
 	"encoding/json"
 	"os"
 	"path/filepath"
-
-	"devops-lab/internal/middleware"
-	"devops-lab/internal/model"
 )
 
 type helmStackFile struct {

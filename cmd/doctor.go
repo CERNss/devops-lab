@@ -2,11 +2,10 @@ package cmd
 
 import (
 	"devops-lab/external"
-	"fmt"
-
 	"devops-lab/internal/middleware"
 	"devops-lab/internal/platform"
 	"devops-lab/internal/runtime"
+	"fmt"
 
 	"github.com/spf13/cobra"
 )

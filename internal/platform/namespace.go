@@ -1,6 +1,8 @@
 package platform
 
-import "devops-lab/internal/runtime"
+import (
+	"devops-lab/internal/runtime"
+)
 
 type NamespaceManager struct {
 	rt runtime.Runtime

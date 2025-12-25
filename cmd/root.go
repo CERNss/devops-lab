@@ -1,11 +1,10 @@
 package cmd
 
 import (
+	"devops-lab/external"
 	"fmt"
 	"os"
 	"strings"
-
-	"devops-lab/external"
 
 	"github.com/spf13/cobra"
 )
